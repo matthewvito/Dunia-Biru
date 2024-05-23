@@ -1,5 +1,5 @@
 :root {
-    --base-color: rgb(14, 67, 26);
+    --base-color: #028391;
 }
 
 *{
@@ -54,7 +54,7 @@ a{
 .jumbotron {
     width: 100%;
     height: 500px;
-    background-image: url(../assets/jumbotron.jpeg);
+    background-image: url(../assets/jumbotron_water.jpg);
     background-size: cover;
 }
 
