@@ -34,13 +34,13 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
             <div class="col-5 col-sm-4 justify-content-end d-flex">
-                <button class="btn btn-success btn-block mr-2">
+                <button class="btn btn-info btn-block mr-2">
                     <a href="login.html" class="text-white">
 
                         Login
                     </a>
                 </button>
-                <button class="btn btn-outline-success btn-block mx-4">
+                <button class="btn btn-outline-info btn-block mx-4">
                     <a href="register.html" class="text-black">
                         Sign Up
                     </a>
@@ -60,75 +60,44 @@
 
     </header>
     <main>
-       <div class="container">
-        <div class="container-fluid">
-            <div class="row mt-5">
-                <!-- Sidebar -->
-                <div class="col-md-2 ">
-                    <h4>Edit Profile</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#edit-profile" class="text-green">Edit Profile</a></li>
-                        <li><a href="#change-password" class="btn-success">Change Password</a></li>
-                        <li><a href="#transaction-history" class="btn-success">Transaction History</a></li>
-                    </ul>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-6 my-3 product__image">
+                    <div class="row g-2">
+                        <div class="col-lg-6 col-sm-12">
+                            <img src="assets/aboutme.jpeg" class="w-100 h-100 " alt="">
+                        </div>
+
+                    </div>
                 </div>
-    
-                <!-- Main Content -->
-                <div class="col-md-5 main-content card">
-                    <!-- Edit Profile Form -->
-                    <div id="edit-profile ">
-                        <h2>Edit Profile</h2>
-                        <form>
-                            <div class="mb-3">
-                                <label for="fullName" class="form-label">Full Name:</label>
-                                <input type="text" class="form-control" id="fullName" name="fullName" required>
-                            </div>
-    
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email:</label>
-                                <input type="email" class="form-control" id="email" name="email" required>
-                            </div>
-    
-                            <div class="mb-3">
-                                <label for="phoneNumber" class="form-label">Phone Number:</label>
-                                <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber">
-                            </div>
-                            
-                            
-    
-                            
-                        </form>
-                    </div>
-    
-                    <!-- Change Password Form (placeholder) -->
-                    <div id="change-password" class="mt-4">
-                        <h2>Change Password</h2>
-                        <form>
-                            <div class="mb-3">
-                                <label for="phoneNumber" class="form-label">New Password:</label>
-                                <input type="password" class="form-control" id="phoneNumber" name="phoneNumber">
+                <div class="col-lg-6 my-3">
+                    <div class="col-12 col-lg-10 col-sm-12">
+                        <div class="card position-relative w-100 p-3" style="width: 600px;">
+                            <h2>About Me</h2>
+                            <div class="card-body">
+                                <p class="mb-0">Halo Semuanya! Perkenalkan, nama saya Matthew Vito Santoso, saya berumur 15 tahun dan tinggal di Tangerang, Banten. Saat ini, saya sedang bersekolah di jenjang SMP dan sebentar lagi lulus. Saya sudah belajar coding dari kelas 7. Saya mau belajar coding karena menurut saya itu keren karena bisa bikin game, website, dan masih banyak lagi.</p>
+
+                                <hr>
+                                <h4>Alasan buat website ini</h4>
+                                <p>Alasan saya membuat website ini karena saya melihat di Indonesia sekarang banyak sampah-sampah yang berserakan di laut yang dapat membuat ikan-ikan sakit bahkan mati karena saya sendiri suka ikan :) . Saya berharap dengan saya membuat website ini, banyk orang akan mulai sadar untuk membuang sampah pada tempatnya dan menjaga kelestarian laut kita. </p>
+
+
+
+
+
+
                             </div>
 
-                            <div class="mb-3">
-                                <label for="phoneNumber" class="form-label">Repeat Password:</label>
-                                <input type="password" class="form-control" id="phoneNumber" name="phoneNumber">
-                            </div>
 
-                            
-                        </form>
+                            <div class="position-absolute text-danger bg-light px-2 py-1 rounded-circle end-0 m-2 ">
+
+                                
+                            </div>
+                        </div>
                     </div>
-    
-                    <!-- Transaction History Section (placeholder) -->
-                    <div id="transaction-history" class="mt-4">
-                        <h2>Transaction History</h2>
-                        <!-- Add your transaction history content here -->
-                    </div>
-                    <button type="submit" class="btn btn-success">Save Changes</button>
                 </div>
             </div>
         </div>
-    
-       </div>
     </main>
     <footer class="container-fluid py-5 mt-5 text-white" style="background-color: var(--base-color);">
         <div class="container">
